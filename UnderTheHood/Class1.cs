@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UnderTheHood
 {
@@ -25,7 +21,7 @@ namespace UnderTheHood
 
         public void ShowClass2()
         {
-            Console.WriteLine($"a={c2.a}, b={c2.b}");
+            Console.WriteLine($"{c2.a} {c2.b}");
         }
     }
 }

@@ -1,15 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UnderTheHood
 {
     internal class Class3 : Class2
     {
-        public int a;
+        public int a; 
         public int b;
+
         public Class1 c1;
         public Point two;
 
@@ -24,6 +21,11 @@ namespace UnderTheHood
             base.DoOperations();
             two.x *= 2;
             two.y *= 2;
+        }
+
+        public void MyAnswer()
+        {
+            Console.WriteLine($"{two.x} {two.y}");
         }
     }
 }
